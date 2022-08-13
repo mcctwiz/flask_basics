@@ -1,0 +1,22 @@
+{% macro render_table(data) %}
+<table>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Zip Code</th>
+    </tr>
+    {% for dic in data: %}
+    <tr>
+        {% for val in dic.values(): %}
+        <td>{{ val }}</td>    
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+{% endmacro %}

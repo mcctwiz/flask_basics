@@ -1,0 +1,8 @@
+body {
+    color: white;
+    background-color: lightcoral;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+}

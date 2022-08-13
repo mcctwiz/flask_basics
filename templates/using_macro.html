@@ -1,0 +1,15 @@
+{% import 'macro.html' as my_mac %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Macro</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>An example of Using Macros in Flask</h1>
+    {{ my_mac.render_table(user_data) }}
+</body>
+</html>
