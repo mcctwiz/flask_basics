@@ -9,7 +9,7 @@ import json
 app = Flask(__name__)
 
 app.config.update(
-    SECRET_KEY='5h1dnQnndbHlZXpRy3PG9gHw4xGq9g1E',
+    SECRET_KEY='5h1dnQnndbfCZXpRy3PG9gHw4xGq9g1E',
     SQLALCHEMY_DATABASE_URI='postgresql://inntbumy:5h1dnQnndbHlZXpRy3PG9gHw4xGq9g1E@rajje.db.elephantsql.com/inntbumy',
     SQLALCHEMY_TRACK_NOTIFICATIONS=False
 )
